@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.moves::-webkit-scrollbar-thumb {
+  background: #dc3545;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body {
+  background-image: url(/images/bg-1.jpg);
+  background-size: contain;
+  background-position: center;
+}
+header {
+  background-color: #ffa900;
+  height: 120px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 0 10px 0 10px;
+}
+.Logo {
+  width: 200px;
+}
+.chars {
+  width: 180px;
+}
+.head {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  background-image: url(/images/text-bg.png);
+  background-size: contain;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+.name {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  font-size: 50px;
+  letter-spacing: 5px;
+  -webkit-text-stroke: 1px white;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card-title {
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+#pokemons {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 200px;
+}
+#pokemon-detail {
+  padding-top: 150px;
+}
+.pokemon {
+  width: 100%;
+  min-height: 550px;
+  padding: 25px;
+  background-color: rgb(249, 250, 252);
+  background-image: url(/images/pokeball-gif3.gif);
+  background-size: cover;
+  background-position: center;
+}
+.pokemon-det {
+  padding: 50px;
+  background-color: rgba(245, 245, 245, 0.726);
+}
+.moves {
+  max-height: 200px;
+  overflow: auto;
+}
+.mask {
+  background-color: rgba(0, 0, 0, 0.562);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mask-image {
+  width: 100px;
+  height: 100px;
+}
+.badge {
+  min-width: 100px;
+  font-size: 10px;
+}
+p{
+  font-size: 12px;
+}
